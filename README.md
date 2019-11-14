@@ -16,9 +16,13 @@ In addition to having full CRUD functionality which allows users to create, read
 * VS code
 
 ## Required Installations:
-* NPM install
-* NPM install express mongo
-* NPM install body-parser
+* Fork and clone the repository
+* Inside the directory run:
+  * npm init
+  * npm install express  
+  * npm install mongo
+  * npm install body-parser
+* Code away
 
 
 ## Routes:
