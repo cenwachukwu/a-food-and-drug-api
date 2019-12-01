@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require('cors')
 const app = express();
 const parser = require("body-parser");
-const Directoryroute = require("../lib/routes/directory")
+const Directoryroute = require("./lib/routes/directory")
 
 app.use(parser.json())
 app.use(Directoryroute)
