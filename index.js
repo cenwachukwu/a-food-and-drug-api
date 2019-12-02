@@ -4,9 +4,10 @@ const app = express();
 const parser = require("body-parser");
 const Directoryroute = require("./lib/routes/directory")
 
+app.use(cors())
 app.use(parser.json())
 app.use(Directoryroute)
-app.use(cors())
+
 
 // app.listen(3000, () =>
 //   console.log('Betur not check for me, unless youve got a check for me'))
