@@ -8,10 +8,6 @@ app.use(cors())
 app.use(parser.json())
 app.use(Directoryroute)
 
-
-// app.listen(3000, () =>
-//   console.log('Betur not check for me, unless youve got a check for me'))
-
 app.set("port", process.env.PORT || 8080);
 
 app.listen(app.get("port"), () => {
