@@ -27,11 +27,22 @@ In addition to having full CRUD functionality which allows users to create, read
 
 ## Routes:
 Here's an explanation to different route, their functionality, and how to navigate it.
-* Home page route: https://med-directory-cen.herokuapp.com/directory
+* Home page route: `https://med-directory-cen.herokuapp.com/directory`
   * Description: this route will redirect the user to the home of the directory, showing the first 200 doctors and their infomation.
 
-* Profile route: https://med-directory-cen.herokuapp.com//directory/profile/:name e.g https://med-directory-cen.herokuapp.com//directory/profile/Terry
+* Profile route: ` https://med-directory-cen.herokuapp.com//directory/profile/:lastname e.g https://med-directory-cen.herokuapp.com//directory/profile/Bloom `
   * Description: this route will direct the user to the profile of the particular doctor that they wish to find. The example will pull out the profile of Dr. Terry.
 
-* Specialties route: https://med-directory-cen.herokuapp.com/directory/specialties/:name e.g https://med-directory-cen.herokuapp.com/directory/specialties/Anesthesiology
-  * Description: this route will direct the user to the list of doctors with that specialty. The example will pull out a list of doctors whose specialty is Anesthesiology.
+* Specialties route: `https://med-directory-cen.herokuapp.com/directory/specialties/:name e.g https://med-directory-cen.herokuapp.com/directory/specialties/Anesthesiology`
+  * Description: this route will direct the user to the list of doctors with that specialty. The example will pull out a list of doctors whose specialty is Anesthesiology
+
+* Update route: `https://med-directory-cen.herokuapp.com/directory/:id e.g https://med-directory-cen.herokuapp.com/directory/5dcdc874d4e0fe000454233d`
+  * Description: this route is linked to an put request that will update the data
+  
+* Delete route: `https://med-directory-cen.herokuapp.com/directory/:id e.g https://med-directory-cen.herokuapp.com/directory/5dcdc874d4e0fe000454233d`
+  * Description: this route is linked to a delete request that will delete the data.
+  
+* Create route: `https://med-directory-cen.herokuapp.com/directory 
+  * Description: this route is linked to a post request that will create a new data. 
+  
+  
