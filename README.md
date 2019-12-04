@@ -42,7 +42,7 @@ Here's an explanation to different route, their functionality, and how to naviga
 * Delete route: `https://med-directory-cen.herokuapp.com/directory/:id e.g https://med-directory-cen.herokuapp.com/directory/5dcdc874d4e0fe000454233d`
   * Description: this route is linked to a delete request that will delete the data.
   
-* Create route: `https://med-directory-cen.herokuapp.com/directory 
+* Create route: `https://med-directory-cen.herokuapp.com/directory `
   * Description: this route is linked to a post request that will create a new data. 
   
   
